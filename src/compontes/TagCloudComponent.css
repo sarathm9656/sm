@@ -1,0 +1,25 @@
+
+.tagcloud {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-family: Arial, sans-serif;
+}
+  
+  .tagcloud span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+   /* .tagcloud span:hover { 
+   transform: scale(1.3);
+    color: #cdd7cd; Change color on hover 
+  
+   } */

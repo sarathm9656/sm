@@ -1,0 +1,28 @@
+.experience-section {
+    background-color: #2d3748; /* Dark Gray */
+    padding: 50px 0;
+  }
+  
+  .experience-card {
+    background-color: #4a5568; /* Medium Dark Gray */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .experience-card h3 {
+    color: #e2e8f0; /* Light Gray */
+  }
+  
+  .experience-card h4 {
+    color: #cbd5e0; /* Slightly lighter gray */
+  }
+  
+  .experience-card p {
+    color: #edf2f7; /* Very light gray */
+  }
+  
+  .experience-card .mt-4 {
+    margin-top: 16px;
+  }
+  

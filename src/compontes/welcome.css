@@ -1,0 +1,35 @@
+.welcome_section{
+    height: 99vh;
+    background-color: rgb(18, 18, 18);
+
+}
+
+
+.welcome_page_hii{
+    padding-left: 130px;
+    font-size: 20px;
+    padding-top:160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.resum_div{
+display: flex;
+padding-top: 0%;
+font-size: 29px;
+justify-content: end;
+padding-right: 90px;
+
+
+}
+.say_head{
+    font-size: 25px;
+}
+.name_section{
+    display: flex;
+    padding-left: 200px;
+}
+.icons_parant_div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 900px;
+    padding-top: 40px;
+}

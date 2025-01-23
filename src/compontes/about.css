@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Base styles for small screens */
+.left_part, .right_part {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* background-color: blue; */
+  }
+  
+  /* Media query for medium screens and up (>=768px) */
+  @media (min-width: 768px) {
+    .left_part, .right_part {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    
+    /* .main{
+        display: flex;
+        
+
+
+    } */
+  }
+  
+  /* Media query for large screens and up (>=1024px) */
+  @media (min-width: 1024px) {
+    .left_part, .right_part {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+  
+  /* Adjust the text size for medium and large screens */
+  @media (min-width: 768px) {
+    .left_part h2 {
+      font-size: 2.5rem;
+    }
+  
+    .left_part p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .left_part h2 {
+      font-size: 3rem;
+    }
+  
+    .left_part p {
+      font-size: 1.4rem;
+    }
+  }
+  /* styles.css */
+
+/* Default styles for the right part (applies to small screens) */
+.right_part {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for medium screens and up (>=768px) */
+  @media (min-width: 768px) {
+    .right_part {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      height: 300px;
+      /* Optional: Adjust layout on medium screens */
+      width: 50%;
+      height: 600px;
+    }
+  }
+  
+  /* Media query for large screens and up (>=1024px) */
+  @media (min-width: 1024px) {
+    .right_part {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      height: 600px;
+      /* Optional: Adjust layout on large screens */
+      width: 50%; /* Make it take up half the space alongside the left part */
+    }
+  }
+  
+  
