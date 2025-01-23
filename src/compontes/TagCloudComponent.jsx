@@ -9,10 +9,10 @@ const TagCloudComponent = () => {
   useEffect(() => {
     const container = tagCloudRef.current;
     const texts = [
-      'React', 'TagCloud', 'JavaScript',
+      'React', 'Git', 'JavaScript',
       'CSS3', 'Gitbub', 'c',
       'HTML', 'Tailwind', 'Bootstrap',
-      'MongoDB', 'Node.js',
+      'MongoDB', 'Node.js','Express',
     ];
     const options = {
       radius: 200,

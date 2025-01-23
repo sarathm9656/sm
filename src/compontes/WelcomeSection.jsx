@@ -2,15 +2,35 @@ import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
-import XIcon from "@mui/icons-material/X";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
+/**
+ * Function to handle navigation to the About Me section.
+ */
+const handleAboutMeClick = () => {
+  console.log("Navigating to About Me section...");
+  // Logic to navigate to the About Me section or another route.
+};
+
+/**
+ * Function to dynamically calculate the greeting message based on the time of day.
+ */
+const getGreetingMessage = () => {
+  const currentHour = new Date().getHours();
+  if (currentHour < 12) {
+    return "Good Morning!";
+  } else if (currentHour < 18) {
+    return "Good Afternoon!";
+  } else {
+    return "Good Evening!";
+  }
+};
 
 export default function WelcomeSection() {
   return (
     <>
       {/* Section with particles background */}
       <div className="relative h-screen w-full bg-black text-white">
-
         {/* Content Section */}
         <div className="relative z-10 h-full">
           {/* Resume Link */}
@@ -27,7 +47,7 @@ export default function WelcomeSection() {
           {/* Main Content */}
           <div className="flex flex-col justify-center items-start h-full px-8 sm:px-16 lg:px-32 space-y-6">
             <h6 className="text-green-500 text-lg sm:text-xl animate-pulse">
-              hi! my name is
+              {getGreetingMessage()}
             </h6>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
               Sarath M
@@ -36,7 +56,10 @@ export default function WelcomeSection() {
               MERN Stack Developer | Passionate about building scalable web
               applications
             </p>
-            <button className="border-2 border-green-500 px-6 py-2 text-sm sm:text-base rounded hover:bg-green-500 hover:text-black transition">
+            <button
+              onClick={handleAboutMeClick}
+              className="border-2 border-green-500 px-6 py-2 text-sm sm:text-base rounded hover:bg-green-500 hover:text-black transition"
+            >
               About Me
             </button>
           </div>
@@ -46,9 +69,9 @@ export default function WelcomeSection() {
             {/* Say Hello Section */}
             <a
               href="mailto:sarathmullath2003@gmail.com"
-              className="text-lg font-semibold hover:underline pl-19 pt-10 "
+              className="text-lg font-semibold hover:underline"
             >
-              <span className=" text-white text-3xl">Say Hello!</span>
+              <span className="text-white text-3xl">Say Hello!</span>
             </a>
 
             {/* Icons Section */}
@@ -61,17 +84,20 @@ export default function WelcomeSection() {
               </a>
               <a
                 href="https://github.com/sarathm9656"
-                className="hover:text-green-500 transition  text-white"
+                className="hover:text-green-500 transition text-white"
               >
                 <GitHubIcon fontSize="large" />
               </a>
               <a
                 href="http://t.me/SARATHMULLATH"
-                className="hover:text-green-500 transition  text-white"
+                className="hover:text-green-500 transition text-white"
               >
                 <TelegramIcon fontSize="large" />
               </a>
-              <a href="https://wa.me/qr/MRVSKRQHJZ2EC1" className="hover:text-green-500 transition  text-white">
+              <a
+                href="https://wa.me/qr/MRVSKRQHJZ2EC1"
+                className="hover:text-green-500 transition text-white"
+              >
                 <WhatsAppIcon fontSize="large" />
               </a>
             </div>
