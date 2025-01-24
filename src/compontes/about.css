@@ -22,6 +22,7 @@
 
 .left-part {
   flex: 1;
+  /* display: none; */
   padding-right: 20px;
   margin-bottom: 2rem;
 }
@@ -122,15 +123,19 @@
 
   .description {
     font-size: 0.875rem;
-    max-width: 100%;
+    max-width: 90%;
+    padding-left: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
   }.right-part {
     
     flex: 1;
-    display: none;
+    /* display: none; */
     justify-content: center;
     align-items: center;
     width: 0;
-    padding-left: 150px;
+    padding-left: 180px;
   }
 
   

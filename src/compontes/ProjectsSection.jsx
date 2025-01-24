@@ -48,11 +48,11 @@ const ProjectCard = ({ title, description, link1, link2 }) => (
       <a href={link1} className="text-green-500 hover:text-yellow-400 transition duration-300">
         Demo
       </a>
-      {link2 && (
+      
         <a href={link2} className="text-green-500 mt-2 hover:text-yellow-400 transition duration-300">
           Source Code
         </a>
-      )}
+     
     </div>
   </div>
 );
