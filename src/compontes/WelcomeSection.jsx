@@ -45,7 +45,7 @@ export default function WelcomeSection() {
           </div>
 
           {/* Main Content */}
-          <div className="flex flex-col justify-center items-start h-full px-8 sm:px-16 lg:px-32 space-y-6">
+          <div className="flex flex-col justify-center items-start h-full px-4 sm:px-8 lg:px-16 space-y-6">
             <h6 className="text-green-500 text-lg sm:text-xl animate-pulse">
               {getGreetingMessage()}
             </h6>
@@ -65,7 +65,7 @@ export default function WelcomeSection() {
           </div>
 
           {/* Bottom Section */}
-          <div className="absolute bottom-8 w-full flex justify-between px-8 sm:px-16 lg:px-">
+          <div className="absolute bottom-8 w-full flex justify-between px-4 sm:px-8 lg:px-16">
             {/* Say Hello Section */}
             <a
               href="mailto:sarathmullath2003@gmail.com"

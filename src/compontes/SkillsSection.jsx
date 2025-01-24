@@ -2,24 +2,24 @@ import React from "react";
 
 function SkillsSection() {
   return (
-    <section className="bg-[rgb(0,0,0)] py-16 px-8">
+    <section className="bg-[rgb(0,0,0)] py-16 px-6 sm:px-8">
       <div className="skill_head">
         {/* Small Heading "02 Skills" in green and left-aligned */}
-        <h3 className="text-xl font-semibold text-green-500 mb-4 text-left">
-          02. SKILS
+        <h3 className="text-lg sm:text-xl font-semibold text-green-500 mb-4 text-left">
+          02. SKILLS
         </h3>
 
         {/* Main Heading "My Skills" Left-aligned */}
-        <h2 className="text-4xl font-semibold mb-6 text-white flex items-center justify-center space-x-4">
-          <div className="bg-gray-900 w-20 h-2 rounded-[10px]"></div>
+        <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white flex items-center justify-center space-x-4">
+          <div className="bg-gray-900 w-16 sm:w-20 h-2 rounded-[10px]"></div>
           <span className="my-10">My Skills</span>
-          <div className="bg-gray-900 w-20 h-2 rounded-[10px]"></div>
+          <div className="bg-gray-900 w-16 sm:w-20 h-2 rounded-[10px]"></div>
         </h2>
       </div>
 
-      <div className="skil_contant">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
-      <SkillCard
+      <div className="skill_content">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <SkillCard
             logo="⚛️"
             title="React"
             description="Building dynamic and interactive UIs using React.js."
@@ -99,17 +99,19 @@ function SkillsSection() {
 
 function SkillCard({ logo, title, description, animation }) {
   return (
-    <div className="relative bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl overflow-hidden group h-40 w-60 flex justify-center items-center ">
+    <div className="relative bg-gray-900 p-4 sm:p-6 rounded-lg shadow-md hover:shadow-xl transition overflow-hidden group h-40 sm:h-48 w-full max-w-[300px] flex flex-col justify-center items-center mx-auto">
       {/* Default View (Logo with Animation) */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white transition-all duration-300 group-hover:opacity-0">
-        <div className={`text-6xl mb-2 ${animation}`}>{logo}</div>
-        <h3 className="text-2xl font-bold">{title}</h3>
+        <div className={`text-4xl sm:text-6xl mb-2 ${animation}`}>{logo}</div>
+        <h3 className="text-lg sm:text-2xl font-bold">{title}</h3>
       </div>
 
       {/* Hover View (Details) */}
       <div className="absolute inset-0 bg-gray-700 text-center flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 p-4">
-        <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
-        <p className="text-gray-300">{description}</p>
+        <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">
+          {title}
+        </h3>
+        <p className="text-sm sm:text-base text-gray-300">{description}</p>
       </div>
     </div>
   );
