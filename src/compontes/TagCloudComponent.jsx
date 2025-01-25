@@ -27,7 +27,7 @@ const TagCloudComponent = () => {
     };
   }, []);
 
-  return <div className="tagcloud" ref={tagCloudRef}></div>;
+  return <div className="tagcloud " ref={tagCloudRef}></div>;
 };
 
 export default TagCloudComponent;

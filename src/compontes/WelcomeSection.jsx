@@ -3,6 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import { Link } from "react-router-dom";
 
 /**
  * Function to handle navigation to the About Me section.
@@ -56,12 +57,15 @@ export default function WelcomeSection() {
               MERN Stack Developer | Passionate about building scalable web
               applications
             </p>
+            <a href="about">
             <button
-              onClick={handleAboutMeClick}
+
               className="border-2 border-green-500 px-6 py-2 text-sm sm:text-base rounded hover:bg-green-500 hover:text-black transition"
             >
               About Me
             </button>
+            </a>
+              
           </div>
 
           {/* Bottom Section */}
