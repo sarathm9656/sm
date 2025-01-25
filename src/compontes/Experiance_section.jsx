@@ -12,7 +12,7 @@ function ExperienceSection() {
 </h2>
       <div className="experience-container flex flex-wrap justify-center gap-10">
         {/* Experience 1 */}
-        <div className="experience-card bg-gray-800 p-8 rounded-lg shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-2/4 transition-transform transform hover:scale-105 hover:bg-gray-700 duration-300 ease-in-out">
+        <div className="experience-card bg-gray-800 p-8 rounded-lg shadow-lg w-80 sm:w-1/2 md:w-1/3 lg:w-2/4 transition-transform transform hover:scale-105 hover:bg-gray-700 duration-300 ease-in-out">
           <h3 className="text-2xl font-semibold mb-2">MERN Stack INTERN</h3>
           <h4 className="text-xl mb-4 text-gray-300">Synnefo Solutions </h4>
           <p className="text-lg mb-4">
@@ -21,7 +21,7 @@ function ExperienceSection() {
         </div>
 
         {/* Experience 2 */}
-        <div className="experience-card bg-gray-800 p-8 rounded-lg shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-2/4 transition-transform transform hover:scale-105 hover:bg-gray-700 duration-300 ease-in-out">
+        <div className="experience-card bg-gray-800 p-8 rounded-lg shadow-lg w-80 sm:w-1/2 md:w-1/3 lg:w-2/4 transition-transform transform hover:scale-105 hover:bg-gray-700 duration-300 ease-in-out">
           <h3 className="text-2xl font-semibold mb-2">MERN STACK INTERN</h3>
           <h4 className="text-xl mb-4 text-gray-300">Laxmi Infotech</h4>
           <p className="text-lg mb-4">

@@ -41,7 +41,7 @@ const ProjectsSection = () => (
 );
 
 const ProjectCard = ({ title, description, link1, link2 }) => (
-  <div className="bg-gray-800 p-6 w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 mb-6 text-center rounded-lg hover:bg-gray-600 transition duration-300">
+  <div className="bg-gray-800 p-6 w-80 sm:w-1/2 lg:w-1/3 xl:w-1/4 mb-6 text-center rounded-lg hover:bg-gray-600 transition duration-300">
     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-white">{title}</h3>
     <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-300">{description}</p>
     <div className="flex flex-col mt-4">
