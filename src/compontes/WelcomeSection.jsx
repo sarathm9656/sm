@@ -3,6 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from "react-router-dom";
 
 /**
@@ -60,7 +61,7 @@ export default function WelcomeSection() {
             <a href="about">
             <button
 
-              className="border-2 border-green-500 px-6 py-2 text-sm sm:text-base rounded hover:bg-green-500 hover:text-black transition"
+              className="border-2 border-green-500 px-6 py-2 text-sm sm:text-base rounded hover:bg-green-500 hover:text-black transition mb-10"
             >
               About Me
             </button>
@@ -69,43 +70,52 @@ export default function WelcomeSection() {
           </div>
 
           {/* Bottom Section */}
-          <div className="absolute bottom-8 w-full flex justify-between px-4 sm:px-8 lg:px-16 pb-12">
+          <div className="absolute bottom-8 w-full flex justify-between flex-row-reverse  px-4 sm:px-8 lg:px-16 ">
             {/* Say Hello Section */}
-            <a
-              href="mailto:sarathmullath2003@gmail.com"
-              className="text-lg font-semibold hover:underline"
-            >
-              <span className="text-white text-3xl">Say Hello!</span>
-            </a>
+            
+           
 
             {/* Icons Section */}
             <div className="flex flex-col items-end space-y-4 pb-2">
               <a
                 href="https://www.instagram.com/sarath_0z4?igsh=dnFyNHltbjRvNmR5"
+                target="_blan"
                 className="hover:text-green-500 transition text-white"
               >
                 <InstagramIcon fontSize="large" />
               </a>
               <a
                 href="https://github.com/sarathm9656"
+              target="_blank"
                 className="hover:text-green-500 transition text-white"
               >
                 <GitHubIcon fontSize="large" />
               </a>
               <a
+                href="https://www.linkedin.com/in/sarath-mullath/"
+                target="_blank"
+                className="hover:text-green-500 transition text-white"
+              >
+                <LinkedInIcon fontSize="large" />
+              </a>
+              <a
                 href="http://t.me/SARATHMULLATH"
+                target="_blank"
                 className="hover:text-green-500 transition text-white"
               >
                 <TelegramIcon fontSize="large" />
               </a>
-              <a
-                href="https://wa.me/qr/MRVSKRQHJZ2EC1"
-                className="hover:text-green-500 transition text-white"
-              >
-                <WhatsAppIcon fontSize="large" />
-              </a>
+              {/* https://wa.me/qr/MRVSKRQHJZ2EC1 */}
+             
             </div>
+            <a
+              href="mailto:sarathmullath2003@gmail.com"
+              className="text-lg font-semibold hover:underline"
+            >
+              <span className="text-white text-3xl  ">Say Hello!</span>
+            </a>
           </div>
+          
         </div>
       </div>
     </>
