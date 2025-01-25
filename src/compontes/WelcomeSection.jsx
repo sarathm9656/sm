@@ -69,7 +69,7 @@ export default function WelcomeSection() {
           </div>
 
           {/* Bottom Section */}
-          <div className="absolute bottom-8 w-full flex justify-between px-4 sm:px-8 lg:px-16">
+          <div className="absolute bottom-8 w-full flex justify-between px-4 sm:px-8 lg:px-16 pb-12">
             {/* Say Hello Section */}
             <a
               href="mailto:sarathmullath2003@gmail.com"
