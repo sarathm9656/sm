@@ -26,9 +26,9 @@ const App = () => {
       <div id="tagcloud"> </div>
       <div id="skill"><SkillsSection/></div>
       <div id="project"><ProjectsSection/></div>
-      <div id="Experience"><ContactSection/></div>
       <div id="ContactSe"><ExperienceSection/></div>
-              {/* <Footer/> */}
+      <div id="Experience"><ContactSection/></div>
+              <Footer/>
     </div>
 
   
