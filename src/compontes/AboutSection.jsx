@@ -30,11 +30,12 @@ function AboutSection() {
             <p className="description">
               I thrive on learning new technologies, solving challenges, and collaborating to bring projects to life.
             </p>
-            <a href="/contact" className="contact-link">
+            <a href="#contact" className="contact-link">
               Let’s build something amazing together!
             </a>
             <p className="quote">"Success is the sum of small efforts, repeated day in and day out."</p>
             <p className="author">~ Robert Collier</p>
+            <a href="#contact"> </a>
           </div>
 
           {/* Right Part */}

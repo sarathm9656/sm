@@ -30,7 +30,7 @@ export default function ContactSection() {
   };
 
   return (
-    <div className="text-center bg-black w-screen-lg mx-auto h-screen m-0 p-4 md:p-8">
+    <div className="text-center bg-black w-screen-lg mx-auto h-screen m-0 p-4 md:p-8" id="contact">
       
        <h3 className="text-xl font-semibold text-green-500 mb-4 text-left pl-5 md:pl-0">
         05. CONTACT

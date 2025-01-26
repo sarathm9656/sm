@@ -60,7 +60,7 @@ export default function WelcomeSection() {
               MERN Stack Developer | Passionate about building scalable web
               applications
             </p>
-            <a href="about">
+            <a href="#about">
             <button
 
               className="border-2  border-green-500 px-6 py-2 text-sm sm:text-base rounded-bl-2xl rounded-tr-2xl hover:bg-green-500 hover:text-black transition mb-10"

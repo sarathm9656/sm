@@ -18,24 +18,25 @@ const ProjectsSection = () => (
         link1="#" 
         link2=""
       />
+       <ProjectCard 
+        title="API check" 
+        description="In this project, I utilized Axios, a popular HTTP client for JavaScript, to fetch data from an API and display it within a React application. By leveraging React's useState and useEffect hooks, I efficiently managed the component's state, including loading and error handling, ensuring a smooth and responsive user experience." 
+        link1="api-checker.netlify.app" 
+        link2="https://github.com/sarathm9656/api_tester"
+      />
       <ProjectCard 
         title="Portfolio Website" 
-        description="A showcase of my work and skills." 
+        description="I developed an interactive developer portfolio using React, highlighting my skills, projects, and experiences with a strong focus on aesthetics and functionality. Utilizing Tailwind CSS for a responsive design and TagCloud for dynamic visual representation of skills, I ensured a sleek and engaging interface. Material-UI components contributed to a professional UI, while Firebase facilitated seamless data storage, authentication, and real-time interactions. Framer Motion added smooth animations, enhancing user experience and interactivity. By combining these advanced tools, I created a visually appealing, user-friendly, and high-performing portfolio." 
         link1="#" 
-        link2=""
+        link2="https://github.com/sarathm9656/sm"
       />
       <ProjectCard 
         title="Instagram Clone" 
         description="I created a simple Instagram clone using HTML and CSS, replicating the design and layout of the Instagram interface. It includes features like a navigation bar, user profile section, and a feed layout with posts, showcasing my front-end development skills." 
         link1="https://instasample.netlify.app/#"
-        link2="" 
+        link2="https://github.com/sarathm9656/insta" 
       />
-      <ProjectCard 
-        title="Student Construction" 
-        description="A system for managing student construction projects." 
-        link1="#" 
-        link2=""
-      />
+     
     </div>
   </section>
 );
