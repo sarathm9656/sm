@@ -49,7 +49,7 @@ export default function WelcomeSection() {
 
           {/* Main Content */}
           <div className="flex flex-col justify-center items-start h-full px-4 sm:px-8 lg:px-16 space-y-6">
-            <h6 className="text-green-500 text-lg sm:text-xl animate-bounce">
+            <h6 className="text-green-500 text-lg sm:text-xl animate-pulse">
              Hi!... {getGreetingMessage()}
             </h6>
             <span className="text-4xl sm:text-5xl lg:text-6xl font-bold">
@@ -63,7 +63,7 @@ export default function WelcomeSection() {
             <a href="about">
             <button
 
-              className="border-2 border-green-500 px-6 py-2 text-sm sm:text-base rounded hover:bg-green-500 hover:text-black transition mb-10"
+              className="border-2  border-green-500 px-6 py-2 text-sm sm:text-base rounded-bl-2xl rounded-tr-2xl hover:bg-green-500 hover:text-black transition mb-10"
             >
               About Me
             </button>
