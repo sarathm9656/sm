@@ -5,7 +5,7 @@ function ExperienceSection() {
     <section className="experience-section py-20 bg-black text-white">
       <h3 className="text-xl font-semibold text-green-500 mb-4 text-left pl-5">04. EXPERIENCE</h3>
       
-      <h2 className="text-4xl font-semibold mb-6 text-white flex items-center justify-center space-x-4">
+      <h2 className="text-3xl font-semibold mb-6 text-white flex items-center justify-center space-x-4">
   <div className="bg-gray-900 w-20 h-2 rounded-[10px]"></div>
   <span className="my-10"> My Experience</span>
   <div className="bg-gray-900 w-20 h-2 rounded-[10px]"></div>
