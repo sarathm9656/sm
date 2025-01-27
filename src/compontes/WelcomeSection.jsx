@@ -39,7 +39,7 @@ export default function WelcomeSection() {
           {/* Resume Link */}
           <div className="absolute top-5 right-5 pt-10 pr-10">
             <a
-              href="/SARATH M.pdf"
+              href="/SARATH_M.pdf"
               download="SarathM_Resume.pdf"
               className="text-lg md:text-xl text-white px-4 py-2 rounded hover:bg-gray-600 transition"
             >
