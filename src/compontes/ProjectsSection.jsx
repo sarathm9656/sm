@@ -15,13 +15,13 @@ const ProjectsSection = () => (
       <ProjectCard 
         title="Online Exam Portal" 
         description="I developed an efficient and secure Online Exam Portal for educational and professional use. The platform includes features like user authentication, exam management, real-time proctoring, and automated grading. Technologies used include React.js, Node.js, Express.js, and MongoDB. I led the full-stack development, collaborating with a cross-functional team to ensure seamless integration and high user satisfaction." 
-        link1="#" 
-        link2=""
+        link1="https://online-exam-portal-nu.vercel.app" 
+        link2="https://github.com/sarathm9656/Online_exam_portal"
       />
        <ProjectCard 
         title="API check" 
         description="In this project, I utilized Axios, a popular HTTP client for JavaScript, to fetch data from an API and display it within a React application. By leveraging React's useState and useEffect hooks, I efficiently managed the component's state, including loading and error handling, ensuring a smooth and responsive user experience." 
-        link1="api-checker.netlify.app" 
+        link1="https://api-checker.netlify.app" 
         link2="https://github.com/sarathm9656/api_tester"
       />
       <ProjectCard 
