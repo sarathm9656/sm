@@ -14,7 +14,7 @@ const ProjectsSection = () => (
     <div className="flex flex-wrap justify-center gap-8 mt-12">
       <ProjectCard 
         title="Online Exam Portal" 
-        description="A platform for conducting and managing online exams." 
+        description="I developed an efficient and secure Online Exam Portal for educational and professional use. The platform includes features like user authentication, exam management, real-time proctoring, and automated grading. Technologies used include React.js, Node.js, Express.js, and MongoDB. I led the full-stack development, collaborating with a cross-functional team to ensure seamless integration and high user satisfaction." 
         link1="#" 
         link2=""
       />
