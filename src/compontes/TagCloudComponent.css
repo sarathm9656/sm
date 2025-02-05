@@ -6,12 +6,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: green;
+    color: rgb(0, 153, 0);
     font-family: Arial, sans-serif;
 }
   
   .tagcloud span {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding: 5px;
     cursor: pointer;
